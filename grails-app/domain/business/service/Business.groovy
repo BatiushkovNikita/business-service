@@ -1,8 +1,8 @@
 package business.service
 
-import javax.persistence.Entity
-
 class Business {
+
+    static mapWith = "mongo"
 
     String name;
     Address address;
